@@ -27,4 +27,8 @@ public class Cardapio {
         concatenador.append("Cardápio\n" + pratos);
         return concatenador.toString();
     }
+
+    public void adicionarPrato (Prato pratoAdicionado){
+        pratos.add(pratoAdicionado);
+    }
 }
