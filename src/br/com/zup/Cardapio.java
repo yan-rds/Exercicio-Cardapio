@@ -20,4 +20,11 @@ public class Cardapio {
     public void setPratos(List<Prato> pratos) {
         this.pratos = pratos;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder concatenador = new StringBuilder();
+        concatenador.append("Cardápio\n" + pratos);
+        return concatenador.toString();
+    }
 }
