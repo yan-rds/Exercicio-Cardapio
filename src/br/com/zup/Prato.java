@@ -50,4 +50,8 @@ public class Prato {
         return concatedor.toString();
     }
 
+    public void adicionarIngredientes (Ingrediente ingredienteAdicionado){
+        ingredientes.add(ingredienteAdicionado);
+    }
+
 }
