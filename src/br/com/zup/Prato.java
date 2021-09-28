@@ -41,5 +41,13 @@ public class Prato {
         this.ingredientes = ingredientes;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder concatedor = new StringBuilder();
+        concatedor.append("Prato: " + nomeDoPrato);
+        concatedor.append("\nPreço: " + preco);
+        concatedor.append("\nIngredientes: " + ingredientes);
+        return concatedor.toString();
+    }
 
 }
