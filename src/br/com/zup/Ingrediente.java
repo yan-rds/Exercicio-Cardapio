@@ -18,5 +18,11 @@ public class Ingrediente {
         this.nomeDoIngrediente = nomeDoIngrediente;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder concatenador = new StringBuilder();
+        concatenador.append( nomeDoIngrediente + "\t");
+        return concatenador.toString();
+    }
 
 }
