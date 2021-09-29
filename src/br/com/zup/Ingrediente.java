@@ -21,7 +21,7 @@ public class Ingrediente {
     @Override
     public String toString() {
         StringBuilder concatenador = new StringBuilder();
-        concatenador.append( nomeDoIngrediente + "\t");
+        concatenador.append( nomeDoIngrediente);
         return concatenador.toString();
     }
 
